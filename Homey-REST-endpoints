@@ -52,8 +52,8 @@ GET http://<HOMEY_IP>/api/manager/ledring/state/
 GET http://<HOMEY_IP>/api/manager/geolocation/
 
 # Logic
-GET http://<HOMEY_IP>/api/logic/variable/
-GET http://<HOMEY_IP>/api/logic/variable/<VARIABLE_ID>/
+GET http://<HOMEY_IP>/api/manager/logic/variable/
+GET http://<HOMEY_IP>/api/manager/logic/variable/<VARIABLE_ID>/
 PUT { "value": value } TO http://<HOMEY_IP>/api/manager/logic/variable/<VARIABLE_ID>/ 
 
 # Mobile
